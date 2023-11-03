@@ -7,7 +7,7 @@ struct student {
     int number;
     char name[64];
     double stature;
-    double wight;
+    double weight;
 };
 
 int main(void)
@@ -26,8 +26,14 @@ int main(void)
     printf("data1.year = %d : data2 year = %d\n",
                                 data1.year, data2.year);
     printf("data1.clas = %d : data2 clas = %d\n",
-                                data2.clas, data2.clas);
+                                data1.clas, data2.clas);
     printf("data1.number = %d : data2 number = %d\n",
-                                data2.number, data2.number);
-    
+                                data1.number, data2.number);
+    printf("data1.name = %s : data2.name = %s\n",
+                                data1.name, data2.name);
+    printf("data1.stature = %f : data2.stature = %f\n",
+                                data1.stature, data2.stature);
+    printf("data1.weight = %f : data2.weight = %f\n",
+                                data1.weight, data2.weight);
+    return 0;
 }
